@@ -6,7 +6,7 @@
  Install-Package DotNetTable -Version 1.0.0
  ```
 
- Beautiful Console Tables,Highly Customizable table building characters
+ Beautiful Console Tables,Highly Customizable table building characters, Very easy to use.
  
  #### Pro tip:
  make sure your Table Size is perfectly divisble by the number of cells in each results.
