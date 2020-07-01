@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DotNetTableSample/1.0.0": {
+        "dependencies": {
+          "DotNetTable": "1.0.0"
+        },
+        "runtime": {
+          "DotNetTableSample.dll": {}
+        }
+      },
+      "DotNetTable/1.0.0": {
+        "runtime": {
+          "DotNetTable.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetTableSample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetTable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

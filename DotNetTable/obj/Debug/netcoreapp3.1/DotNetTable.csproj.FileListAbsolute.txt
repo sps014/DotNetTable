@@ -1,0 +1,9 @@
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\bin\Debug\netcoreapp3.1\DotNetTable.deps.json
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\bin\Debug\netcoreapp3.1\DotNetTable.dll
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\bin\Debug\netcoreapp3.1\DotNetTable.pdb
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\obj\Debug\netcoreapp3.1\DotNetTable.csprojAssemblyReference.cache
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\obj\Debug\netcoreapp3.1\DotNetTable.AssemblyInfoInputs.cache
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\obj\Debug\netcoreapp3.1\DotNetTable.AssemblyInfo.cs
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\obj\Debug\netcoreapp3.1\DotNetTable.csproj.CoreCompileInputs.cache
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\obj\Debug\netcoreapp3.1\DotNetTable.dll
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTable\obj\Debug\netcoreapp3.1\DotNetTable.pdb

@@ -1,0 +1,16 @@
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTableSample.exe
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTableSample.deps.json
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTableSample.runtimeconfig.json
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTableSample.runtimeconfig.dev.json
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTableSample.dll
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTableSample.pdb
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTable.dll
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\bin\Debug\netcoreapp3.1\DotNetTable.pdb
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.csprojAssemblyReference.cache
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.AssemblyInfoInputs.cache
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.AssemblyInfo.cs
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.csproj.CoreCompileInputs.cache
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.csproj.CopyComplete
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.dll
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.pdb
+C:\Users\shive\Desktop\Test\DotNetTable\DotNetTableSample\obj\Debug\netcoreapp3.1\DotNetTableSample.genruntimeconfig.cache

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTable", "DotNetTable\DotNetTable.csproj", "{0457D63E-1232-48FE-A604-01AAD4DCA392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTableSample", "DotNetTableSample\DotNetTableSample.csproj", "{7466CFE7-5C66-4D95-B535-F50DEAE9E242}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0457D63E-1232-48FE-A604-01AAD4DCA392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0457D63E-1232-48FE-A604-01AAD4DCA392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0457D63E-1232-48FE-A604-01AAD4DCA392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0457D63E-1232-48FE-A604-01AAD4DCA392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7466CFE7-5C66-4D95-B535-F50DEAE9E242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7466CFE7-5C66-4D95-B535-F50DEAE9E242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7466CFE7-5C66-4D95-B535-F50DEAE9E242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7466CFE7-5C66-4D95-B535-F50DEAE9E242}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08A477B9-7AF9-487A-A475-DD172D66F7E6}
+	EndGlobalSection
+EndGlobal
