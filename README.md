@@ -69,4 +69,32 @@
 
 ```
 
+##### 3. Table With Specific Row Size
 ![capt3](https://user-images.githubusercontent.com/45932883/86245180-bacae800-bbc6-11ea-9fee-a0a13473b6eb.PNG)
+
+```cs
+            //border color optional
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
+            Table table = new Table();
+
+            TableRow row1 = new TableRow();
+            row1.RowData.Add(new TableData("Opinion", ConsoleColor.Magenta) {Width=30 });
+            row1.RowData.Add(new TableData("C# is awesome", ConsoleColor.Blue) { Width = 20 });
+            row1.RowData.Add(new TableData("C++ is ♥", ConsoleColor.Yellow) { Width = 10 });
+            table.Rows.Add(row1);
+
+            TableRow row2 = new TableRow();
+            row2.RowData.Add(new TableData("Yes") { Width = 30 });
+            row2.RowData.Add(new TableData("88%") { Width = 20 });
+            row2.RowData.Add(new TableData("70%") { Width = 10 });
+            table.Rows.Add(row2);
+
+            TableRow row3 = new TableRow();
+            row3.RowData.Add(new TableData("No") { Width = 30 });
+            row3.RowData.Add(new TableData("12%") { Width = 20 });
+            row3.RowData.Add(new TableData("30%") { Width = 10 });
+            table.Rows.Add(row3);
+
+            table.Draw(false);
+```
