@@ -5,6 +5,11 @@
  ```shell
  Install-Package DotNetTable -Version 1.0.0
  ```
+ 
+ add namespace on on top of your *.cs file
+ ```cs 
+ using DotNetTable;
+ ```
 
  Beautiful Console Tables,Highly Customizable table building characters, Very easy to use.
  
