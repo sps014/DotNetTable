@@ -1,5 +1,11 @@
 # DotNetTable
 
+ [![NuGet Package](https://img.shields.io/badge/nuget-v1.0.0-orange.svg)](https://www.nuget.org/packages/DotNetTable/)
+ 
+ ```shell
+ Install-Package DotNetTable -Version 1.0.0
+ ```
+
  Beautiful Console Tables,Highly Customizable table building characters
  
  #### Pro tip:
