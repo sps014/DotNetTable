@@ -2,6 +2,9 @@
 
  Beautiful Console Tables,Highly Customizable table building characters
  
+ #### Pro tip:
+ make sure your Table Size is perfectly divisble by the number of cells in each results.
+ 
  ##### 1. Default Table With Equal Block Width and Colors
 ![capt1](https://user-images.githubusercontent.com/45932883/86245167-b7cff780-bbc6-11ea-80ef-46aeb3098f81.PNG)
 
