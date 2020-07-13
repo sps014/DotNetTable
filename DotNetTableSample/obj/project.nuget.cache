@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NR15Zd9lYb59UZIQvfiHXxzeI+ZpHJjX1WsuyejtHQmWtnHkJMbsZpY1jCEctsXdj2t4/3obZwftGXQOHh527g==",
+  "dgSpecHash": "qxwkzda2NhiZXZNebvYsgkRXI9jSBWRmeFFtwdYwU9p8899z6fNdoISDnSovrSVQsSD9pDS5M3/crhsjlraPYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\shive\\Desktop\\Test\\DotNetTable\\DotNetTableSample\\DotNetTableSample.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\shive\\.nuget\\packages\\dotnettable\\1.0.0\\dotnettable.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

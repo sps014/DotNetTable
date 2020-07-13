@@ -19,6 +19,7 @@ namespace DotNetTable
         public char TableRightJoin { get; set; } = '┤';
         public char TableLeftJoin { get; set; } = '├';
         public int Width { get; set; } = 60;
+        public ConsoleColor BorderColor { get; set; } = ConsoleColor.White;
         public List<TableRow> Rows { get; private set; } = new List<TableRow>();
         public void Draw(bool autoWidth=true, List<TableRow> rows=null)
         {
@@ -77,7 +78,7 @@ namespace DotNetTable
                     buffer[i] = TableHorizontalChar;
                 }
             }
-            
+            Console.ForegroundColor = BorderColor;
             Console.WriteLine(new string(buffer));
         }
         void DrawBottomHorizontal(TableRow bottom)
@@ -101,7 +102,7 @@ namespace DotNetTable
                     buffer[i] = TableHorizontalChar;
                 }
             }
-
+            Console.ForegroundColor = BorderColor;
             Console.WriteLine(new string(buffer));
 
         }
@@ -143,15 +144,12 @@ namespace DotNetTable
                     buffer[i] = TableHorizontalChar;
                 }
             }
-
+            Console.ForegroundColor = BorderColor;
             Console.WriteLine(new string(buffer));
         }
 
         void PrintContent(TableRow tableRow)
         {
-            var prevForeground = Console.ForegroundColor;
-            var prevBackground = Console.BackgroundColor;
-
             int totalWidth = SumRow(tableRow);
             char[] buffer = new char[totalWidth];
 
@@ -184,13 +182,11 @@ namespace DotNetTable
                 Console.BackgroundColor = tableRow.RowData[i].BackgroundColor;
                 string item = generatedString[i];
                 Console.Write(item);
-                Console.ForegroundColor = prevForeground;
-                Console.BackgroundColor = prevBackground;
+                Console.ForegroundColor=BorderColor;
                 Console.Write(TableVerticalChar);
             }
             Console.Write("\n");
-            Console.ForegroundColor = prevForeground;
-            Console.BackgroundColor = prevBackground;
+            Console.ResetColor();
 
         }
         int SumRow(TableRow tr)

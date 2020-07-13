@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\shive\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\shive\\.nuget\\packages"
+      "C:\\Users\\shive\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }

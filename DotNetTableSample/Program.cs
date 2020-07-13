@@ -10,22 +10,19 @@ namespace DotNetTableSample
         {
             Console.WriteLine("Default Table With Colors and overall width");
             CreateTable1();
-            Console.ResetColor();
             Console.WriteLine("\nTable with unequal Row Cells");
             CreateTable2();
-            Console.ResetColor();
             Console.WriteLine("\nTable with custom width");
             CreateTable3();
-            Console.ResetColor();
             Console.ReadKey();
         }
 
         static void CreateTable1()
         {
             //border color optional
-            Console.ForegroundColor = ConsoleColor.Red;
 
             Table table = new Table();
+            table.BorderColor = ConsoleColor.Red;
 
             table.Width = 100;//optional wisth defaults to 60
 
@@ -55,9 +52,10 @@ namespace DotNetTableSample
         static void CreateTable2()
         {
             //border color optional
-            Console.ForegroundColor = ConsoleColor.Green;
 
             Table table = new Table();
+            table.BorderColor = ConsoleColor.Green;
+
 
             TableRow row1 = new TableRow();
             row1.RowData.Add(new TableData("Opinion", ConsoleColor.Magenta));
@@ -83,10 +81,9 @@ namespace DotNetTableSample
         }
         static void CreateTable3()
         {
-            //border color optional
-            Console.ForegroundColor = ConsoleColor.Cyan;
 
             Table table = new Table();
+            table.BorderColor = ConsoleColor.Cyan;
 
             TableRow row1 = new TableRow();
             row1.RowData.Add(new TableData("Opinion", ConsoleColor.Magenta) {Width=30 });
